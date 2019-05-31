@@ -5,7 +5,7 @@ export default class Image extends Component {
     return (
       <div>
         <img src={this.props.url} />
-        <caption>Error 599</caption>
+        <caption>oh no</caption>
       </div>
     )
   }

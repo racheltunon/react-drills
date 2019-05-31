@@ -4,10 +4,13 @@ import "./App.css";
 import Image from "./Image";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return (
       <div className="App">
-        <Image myImage={"https://http.cat/409"} />
+        <Image url={"https://coleandmarmalade.com/wp-content/uploads/2018/04/bigstock-213050398.jpg"} />
       </div>
     );
   }

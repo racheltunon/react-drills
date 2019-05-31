@@ -4,8 +4,8 @@ import "./App.css";
 import Todo from "./ToDo";
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       list: [],
